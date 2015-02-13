@@ -1,0 +1,31 @@
+{
+  "name": "grunt-vanillajs",
+  "description": "Compile vanillajs code into pure javascript",
+  "version": "1.0.0",
+  "homepage": "https://github.com/vitkarpov/grunt-vanillajs",
+  "author": "Viktor Karpov <viktor.s.karpov@yandex.ru>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vitkarpov/grunt-vanillajs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vitkarpov/grunt-vanillajs/issues"
+  },
+  "devDependencies": {
+    "expect.js": "*",
+    "mocha": "*",
+    "grunt": "0.4.1"
+  },
+  "peerDependencies": {
+    "grunt": ">=0.4.1"
+  },
+  "keywords": [
+    "gruntplugin",
+    "vanillajs",
+    "compile"
+  ],
+  "scripts": {
+    "test": "node_modules/.bin/mocha tests/index.js"
+  },
+  "license": "MIT"
+}
